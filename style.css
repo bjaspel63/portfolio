@@ -7,7 +7,6 @@
       --accent: #7aa2ff;
       --accent-2:#4ee2c1;
       --ring: rgba(122,162,255,.45);
-      --shadow: 0 10px 30px rgba(0,0,0,.35);
       --radius: 14px;
       --maxw: 1100px;
     }
@@ -15,7 +14,7 @@
       :root{
         --bg:#f6f7fb; --card:#ffffff; --text:#1e2233; --muted:#5b607a;
         --accent:#3b63f3; --accent-2:#0dbb98; --ring:rgba(59,99,243,.35);
-        --shadow: 0 10px 24px rgba(16,24,40,.08);
+    
       }
     }
 
@@ -132,6 +131,7 @@
     @media (max-width: 560px){
       .grid{ grid-template-columns: 1fr; }
     }
+
 
 
 
