@@ -49,12 +49,12 @@
       border: 1px solid rgba(122,162,255,.18);
       border-radius: var(--radius);
       padding: 24px;
-      box-shadow: var(--shadow);
+      /*box-shadow: var(--shadow);*/
     }
     .avatar{
       width: 170px; height: 170px; border-radius: 50%;
       overflow: hidden; border: 3px solid rgba(122,162,255,.35);
-      box-shadow: 0 8px 20px rgba(0,0,0,.25);
+      /*box-shadow: 0 8px 20px rgba(0,0,0,.25);*/
     }
     .title{ margin: 0 0 8px; font-size: clamp(28px, 4vw, 42px); line-height: 1.2; letter-spacing: .2px; }
     .subtitle{ margin: 0 0 16px; color: var(--muted); font-size: 18px; }
@@ -78,7 +78,7 @@
     .card{
       background: var(--card); border: 1px solid rgba(255,255,255,.08);
       border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
-      display:flex; flex-direction: column; min-height: 220px;
+      display:flex; flex-direction: column; min-height: 220px; box-shadow: var(--shadow); /* Shadow only here */
     }
     .thumb{
        height: 290px; background: linear-gradient(135deg, rgba(122,162,255,.16), rgba(78,226,193,.16));
@@ -132,3 +132,4 @@
     @media (max-width: 560px){
       .grid{ grid-template-columns: 1fr; }
     }
+
