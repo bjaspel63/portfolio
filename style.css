@@ -29,6 +29,8 @@
       background: radial-gradient(1200px 600px at 20% -10%, rgba(122,162,255,.12), transparent),
                   radial-gradient(1000px 600px at 120% 10%, rgba(78,226,193,.10), transparent),
                   var(--bg);
+	  background-repeat: no-repeat;
+      background-attachment: fixed;
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover, a:focus { text-decoration: underline; }
@@ -132,6 +134,7 @@
     @media (max-width: 560px){
       .grid{ grid-template-columns: 1fr; }
     }
+
 
 
 
